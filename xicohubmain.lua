@@ -11504,7 +11504,7 @@ end
 v14:AddDropdown({
     Name = "Select Melee to Buy",
     Options = GetAvailableMeleeOptions(),
-    Default = "Dark Step (Black Leg)
+    Default = "Dark Step (Black Leg)",
     Callback = function(Value)
         SelectedMelee = Value
     end
