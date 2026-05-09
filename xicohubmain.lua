@@ -11408,11 +11408,11 @@ local World2 = World2 or false
 local World3 = World3 or false
 
 -- Section chính cho Shop
-v14:AddSection({"Mua Melee V1"})
+v14:AddSection({"Buy Melee V1"})
 
 -- Danh sách Melee với tọa độ theo từng World
 local MeleeCoords = {
-    ["Dark Step (Chân Đen)"] = {
+    ["Dark Step (Black Leg)"] = {
         Key = "BuyBlackLeg",
         NPC = "Dark Step Teacher",
         Pos = World1 and CFrame.new(-985, 13, 3988) 
@@ -11486,7 +11486,7 @@ local MeleeCoords = {
     }
 }
 
-local SelectedMelee = "Dark Step (Chân Đen)"
+local SelectedMelee = "Dark Step (Black Leg)"
 
 -- Hàm lấy danh sách Melee có ở Sea hiện tại
 local function GetAvailableMeleeOptions()
@@ -11502,9 +11502,9 @@ end
 
 -- Dropdown chọn Melee
 v14:AddDropdown({
-    Name = "Chọn Melee Cần Mua",
+    Name = "Select Melee to Buy",
     Options = GetAvailableMeleeOptions(),
-    Default = "Dark Step (Chân Đen)",
+    Default = "Dark Step (Black Leg)
     Callback = function(Value)
         SelectedMelee = Value
     end
@@ -11512,7 +11512,7 @@ v14:AddDropdown({
 
 -- Toggle Auto Mua Melee
 v14:AddToggle({
-    Name = "Auto Mua (Bật/Tắt)",
+    Name = "Auto Buy (ON/OFF)",
     Default = GetSetting("AutoBuyMelee_Save", false),
     Callback = function(Value)
         _G.AutoBuyMelee = Value
@@ -11596,9 +11596,9 @@ v14:AddToggle({
 })
 
 -- ========================================
--- MUA ĐỒ CRAFT SEA EVENT
+-- CRAFT ITEM SEA EVENT
 -- ========================================
-v14:AddSection({"Mua Đồ Craft Sea Event"})
+v14:AddSection({"Craft Item Sea Event"})
 
 v14:AddButton({
     Name = "Craft Dragonheart",
@@ -11689,9 +11689,9 @@ v14:AddButton({
 })
 
 -- ========================================
--- MUA HAKI, SORU, GEppo
+-- BUY HAKI, SORU, GEppo
 -- ========================================
-v14:AddSection({"Mua Haki, Soru, Geppo"})
+v14:AddSection({"Buy Haki, Soru, Geppo"})
 
 v14:AddButton({
     Name = "Buy Geppo $10,000",
@@ -11726,9 +11726,9 @@ v14:AddButton({
 })
 
 -- ========================================
--- MUA KIẾM, SÚNG
+-- BUY SWORDS, GUNS
 -- ========================================
-v14:AddSection({"Mua Kiếm, Súng"})
+v14:AddSection({"Buy Swords, Guns"})
 
 -- Kiếm
 v14:AddButton({
@@ -11878,9 +11878,9 @@ v14:AddButton({
 })
 
 -- ========================================
--- MUA PHỤ KIỆN
+-- BUY ACCESSORIES
 -- ========================================
-v14:AddSection({"Mua Phụ Kiện"})
+v14:AddSection({"Buy Accessories"})
 
 v14:AddButton({
     Name = "Buy Black Cape $50,000",
@@ -11907,12 +11907,12 @@ v14:AddButton({
 })
 
 -- ========================================
--- ĐỔI TỘC, RESET STATS
+-- ITEM, RESET STATS
 -- ========================================
-v14:AddSection({"Đổi Tộc, Reset Stats"})
+v14:AddSection({"Buy, Reset Stats"})
 
 v14:AddButton({
-    Name = "Đổi Tộc Ghoul",
+    Name = "Buy Ghoul",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Ectoplasm", "Change", 4)
         bearlib:Notify({Title = "Race", Message = "Đã đổi sang Ghoul", Duration = 2})
@@ -11920,7 +11920,7 @@ v14:AddButton({
 })
 
 v14:AddButton({
-    Name = "Đổi Tộc Cyborg",
+    Name = "Buy Cyborg",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CyborgTrainer", "Buy")
         bearlib:Notify({Title = "Race", Message = "Đã đổi sang Cyborg", Duration = 2})
