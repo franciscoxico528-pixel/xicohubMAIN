@@ -11584,7 +11584,7 @@ v14:AddToggle({
                         
                         bearlib:Notify({
                             Title = "Xico Hub",
-                            Message = "Đã mua: " .. SelectedMelee,
+                            Message = "Done: " .. SelectedMelee,
                             Duration = 2
                         })
                         task.wait(1)
@@ -11697,7 +11697,7 @@ v14:AddButton({
     Name = "Buy Geppo $10,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki", "Geppo")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Geppo", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Geppo", Duration = 2})
     end
 })
 
@@ -11705,7 +11705,7 @@ v14:AddButton({
     Name = "Buy Buso Haki $25,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki", "Buso")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Buso Haki", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Buso Haki", Duration = 2})
     end
 })
 
@@ -11713,7 +11713,7 @@ v14:AddButton({
     Name = "Buy Soru $25,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki", "Soru")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Soru", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Soru", Duration = 2})
     end
 })
 
@@ -11721,7 +11721,7 @@ v14:AddButton({
     Name = "Buy Observation Haki $750,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("KenTalk", "Buy")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Observation Haki", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Observation Haki", Duration = 2})
     end
 })
 
@@ -11735,7 +11735,7 @@ v14:AddButton({
     Name = "Buy Cutlass $1,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Cutlass")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Cutlass", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Cutlass", Duration = 2})
     end
 })
 
@@ -11743,7 +11743,7 @@ v14:AddButton({
     Name = "Buy Katana $1,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Katana")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Katana", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Katana", Duration = 2})
     end
 })
 
@@ -11751,7 +11751,7 @@ v14:AddButton({
     Name = "Buy Iron Mace $25,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Iron Mace")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Iron Mace", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Iron Mace", Duration = 2})
     end
 })
 
@@ -11759,7 +11759,7 @@ v14:AddButton({
     Name = "Buy Dual Katana $12,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Duel Katana")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Dual Katana", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Dual Katana", Duration = 2})
     end
 })
 
@@ -11767,7 +11767,7 @@ v14:AddButton({
     Name = "Buy Triple Katana $60,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Triple Katana")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Triple Katana", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Triple Katana", Duration = 2})
     end
 })
 
@@ -11775,7 +11775,7 @@ v14:AddButton({
     Name = "Buy Pipe $100,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Pipe")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Pipe", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Pipe", Duration = 2})
     end
 })
 
@@ -11783,7 +11783,7 @@ v14:AddButton({
     Name = "Buy Dual-Headed Blade $400,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Dual-Headed Blade")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Dual-Headed Blade", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Dual-Headed Blade", Duration = 2})
     end
 })
 
@@ -11791,7 +11791,7 @@ v14:AddButton({
     Name = "Buy Bisento $1,200,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Bisento")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Bisento", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Bisento", Duration = 2})
     end
 })
 
@@ -11799,7 +11799,7 @@ v14:AddButton({
     Name = "Buy Soul Cane $750,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Soul Cane")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Soul Cane", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Soul Cane", Duration = 2})
     end
 })
 
@@ -11807,7 +11807,7 @@ v14:AddButton({
     Name = "Buy Pole V2 5,000F",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("ThunderGodTalk")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Pole V2", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Pole V2", Duration = 2})
     end
 })
 
@@ -11816,7 +11816,7 @@ v14:AddButton({
     Name = "Buy Slingshot $5,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Slingshot")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Slingshot", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Slingshot", Duration = 2})
     end
 })
 
@@ -11824,7 +11824,7 @@ v14:AddButton({
     Name = "Buy Musket $8,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Musket")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Musket", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Musket", Duration = 2})
     end
 })
 
@@ -11832,7 +11832,7 @@ v14:AddButton({
     Name = "Buy Flintlock $10,500",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Flintlock")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Flintlock", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Flintlock", Duration = 2})
     end
 })
 
@@ -11840,7 +11840,7 @@ v14:AddButton({
     Name = "Buy Refined Slingshot $30,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Refined Flintlock") -- Sửa tên cho đúng
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Refined Slingshot", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Refined Slingshot", Duration = 2})
     end
 })
 
@@ -11848,7 +11848,7 @@ v14:AddButton({
     Name = "Buy Refined Flintlock $65,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Refined Flintlock")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Refined Flintlock", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Refined Flintlock", Duration = 2})
     end
 })
 
@@ -11856,7 +11856,7 @@ v14:AddButton({
     Name = "Buy Cannon $100,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Cannon")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Cannon", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Cannon", Duration = 2})
     end
 })
 
@@ -11865,7 +11865,7 @@ v14:AddButton({
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward", "Slingshot", "1")
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward", "Slingshot", "2")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Kabucha", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Kabucha", Duration = 2})
     end
 })
 
@@ -11873,7 +11873,7 @@ v14:AddButton({
     Name = "Buy Bizarre Rifle 250 Ectoplasm",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Ectoplasm", "Buy", 1)
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Bizarre Rifle", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Bizarre Rifle", Duration = 2})
     end
 })
 
@@ -11886,7 +11886,7 @@ v14:AddButton({
     Name = "Buy Black Cape $50,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Black Cape")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Black Cape", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Black Cape", Duration = 2})
     end
 })
 
@@ -11894,7 +11894,7 @@ v14:AddButton({
     Name = "Buy Swordsman Hat $150,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Swordsman Hat")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Swordsman Hat", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Swordsman Hat", Duration = 2})
     end
 })
 
@@ -11902,7 +11902,7 @@ v14:AddButton({
     Name = "Buy Tomoe Ring $500,000",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem", "Tomoe Ring")
-        bearlib:Notify({Title = "Shop", Message = "Đã mua Tomoe Ring", Duration = 2})
+        bearlib:Notify({Title = "Shop", Message = "Done Buy Tomoe Ring", Duration = 2})
     end
 })
 
