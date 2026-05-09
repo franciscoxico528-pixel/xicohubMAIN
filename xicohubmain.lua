@@ -11428,7 +11428,7 @@ local MeleeCoords = {
             or World3 and CFrame.new(-4995, 314, -3203) 
             or nil
     },
-    ["Water Kung Fu (Võ Cá)"] = {
+    ["Water Kung Fu (Fishman Karate))"] = {
         Key = "BuyFishmanKarate",
         NPC = "Water Kung Fu Teacher",
         Pos = World1 and CFrame.new(61585, 18, 987) 
@@ -11457,7 +11457,7 @@ local MeleeCoords = {
             or World3 and CFrame.new(-4999, 314, -3221) 
             or nil
     },
-    ["Sharkman Karate (Võ Cá V2)"] = {
+    ["Sharkman Karate (Fishman Karate V2)"] = {
         Key = "BuySharkmanKarate",
         NPC = "Daigrock, the Sharkman",
         Pos = World2 and CFrame.new(-2602, 238, -10316) 
