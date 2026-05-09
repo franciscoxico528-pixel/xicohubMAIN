@@ -4244,8 +4244,8 @@ function CheckItemBPCRBPCR(p611)
     end
 end
 local vu616 = loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow({
-    ["Title"] = "redz Hub",
-    ["SubTitle"] = "by real_redz",
+    ["Title"] = "Xico Hub",
+    ["SubTitle"] = "by xicoszk",
     ["SaveFolder"] = "Redz | redz lib v5.lua"
 })
 local v617 = Instance.new("ScreenGui")
