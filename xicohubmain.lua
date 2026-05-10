@@ -2644,7 +2644,7 @@ local Window = bearlib:MakeWindow({
     Title = "Xico Hub | Farm",
     SubTitle = "by xicoszk",
     SaveFolder = true,
-    Image = "84090982489875"
+    Image = "rbxassetid://84090982489875"
 })
 
 -- Hiển thị thông báo UI đã tải xong
