@@ -2644,7 +2644,7 @@ local Window = bearlib:MakeWindow({
     Title = "Xico Hub | Farm",
     SubTitle = "by xicoszk",
     SaveFolder = false,
-    Image = "rbxassetid://84090982489875"
+    Image = "84090982489875"
 })
 
 -- Hiển thị thông báo UI đã tải xong
@@ -12608,7 +12608,7 @@ v12:AddToggle({
         _G.NoAimTeam = value
         _G.SaveData["NoAimTeam_Save"] = value
         SaveSettings()
-		end
+    end
 })
 
 -- Toggle tự động chấp nhận đồng minh
